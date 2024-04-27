@@ -1,3 +1,5 @@
+import { transform } from "framer-motion";
+
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 const {
@@ -13,6 +15,15 @@ export default {
   darkMode:"class",
   theme: {
     extend: {
+      animation: {
+        "loop-scroll": "loop-scroll 100s linear infinite"
+      },
+      keyframes:{
+        "loop-scroll":{
+          from: {transform: 'translateX(0)'},
+          to: {transform: 'translateX(-100%)'}
+        },
+      },
       fontFamily: {
         'mono': ['Roboto Mono', 'monospace'],
       },
