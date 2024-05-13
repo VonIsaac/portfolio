@@ -25,7 +25,7 @@ function App() {
       
       </nav>   
         {/*-----------  */}
-        <main className=' scroll-smooth '> 
+        <main className=' scroll-smooth relative'> 
           <Skills  />
           <Project />
         </main>
