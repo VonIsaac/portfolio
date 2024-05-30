@@ -1,5 +1,5 @@
 import { createSlice} from "@reduxjs/toolkit";
-import myResume from '../assets/Von_Isaac_Baban.pdf'
+import myResume from '../assets/Von Isaac R BABAN NEW VERSION.pdf'
 
 const allfunctions = createSlice({
     name: 'functions',

@@ -53,7 +53,7 @@ import faceBook from '../assets/icons8-facebook-50.png'
             </h1>
             
             <h1 className=' ml-2 text-neutral-500 text-3xl font-semibold mb-2'  >
-              I am passionate about <span className=' text-green-500  '>creating</span> remarkable expirence on the <span className=' text-blue-400'>web</span>
+              I am passionate about <span className=' text-green-500  '>creating</span> remarkable expirence on the <span className=' text-blue-400'>web.</span>
             </h1>
             <button className=" mb-3 select-none rounded ml-2 bg-blue-500 py-1 px-2 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
               
@@ -64,7 +64,7 @@ import faceBook from '../assets/icons8-facebook-50.png'
             <div className=" flex gap-3 ml-2" >
                 <img src={gitHub} alt="github" className=" w-[20px] cursor-pointer" onClick={(e) => handleUrl(e, 'https://github.com/VonIsaac?tab=repositories')} />
                 <img src={faceBook} alt="facebook" className=" w-[20px] cursor-pointer"  onClick={(e) => handleUrl(e, 'https://www.facebook.com/von.von1323/')} />
-               <img src={linkEnd} alt="linkend" className=" w-[20px] cursor-pointer" onClick={(e) => handleUrl(e, 'https://www.linkedin.com/in/von-isaac-baban-997850272/')} />
+               <img src={linkEnd} alt="linkend" className=" w-[20px] cursor-pointer" onClick={(e) => handleUrl(e, 'https://www.linkedin.com/in/vonisaac23/')} />
             </div>
         </div>
       </div>
