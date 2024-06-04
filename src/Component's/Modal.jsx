@@ -20,12 +20,12 @@ const Modal = forwardRef(({buttons}, ref) => {
     }
 
     return createPortal(
-        <dialog ref={modal} className=" backdrop:bg-stone-950/80 p-4 pt-5 rounded-md shadow-md w-[25%] bg-neutral-900">
+        <dialog ref={modal} className=" backdrop:bg-stone-950/80 p-4 pt-5 rounded-lg shadow-md w-[26%] bg-neutral-900">
             <h1 className=" pb-8 font-bold font-mono text-xl text-stone-500">Follow my Socials</h1>
-            <div className=" flex justify-around">
-                <img src={linkend} alt="icon" className=" w-[4rem] cursor-pointer" onClick={(e) => url(e, 'https://www.linkedin.com/in/vonisaac23/')}/>
-                <img src={fb} alt="icon" className=" w-[4rem] cursor-pointer" onClick={(e) => url(e, 'https://www.facebook.com/von.von1323/')}/>
-                <img src={insta} alt="icon" className=" w-[4rem] cursor-pointer" onClick={(e) => url(e, 'https://www.instagram.com/vnisac/')}/>   
+            <div className=" flex justify-evenly">
+                <img src={linkend} alt="icon" className=" w-[3rem] cursor-pointer" onClick={(e) => url(e, 'https://www.linkedin.com/in/vonisaac23/')}/>
+                <img src={fb} alt="icon" className=" w-[3rem] cursor-pointer" onClick={(e) => url(e, 'https://www.facebook.com/von.von1323/')}/>
+                <img src={insta} alt="icon" className=" w-[3rem] cursor-pointer" onClick={(e) => url(e, 'https://www.instagram.com/vnisac/')}/>   
             </div>
             <form method="dialog" className="pt-5 flex justify-end">
                 <button className= " text-slate-600 font-bold bg-stone-800 py-1 rounded-lg px-2" >{buttons}</button>

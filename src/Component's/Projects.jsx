@@ -3,7 +3,7 @@ import GitHub from '../assets/ICONS/GitHub.png'
 import TaskApp from './All-Projects/Task-app';
 import InterActive from './All-Projects/Inter-Active';
 import AirJordan from './All-Projects/AirJordan';
-
+import Portfolio from './All-Projects/Portfolio';
 const Project = () => {
 
     const handleProjectGithub = (e, url) => {
@@ -14,7 +14,7 @@ const Project = () => {
     return(
         <>       
             <div>
-                <h1 className=' text-indigo-400 uppercase text-5xl font-extrabold mb-16 ml-[8rem] ' data-aos = 'fade-down'>
+                <h1 className=' text-indigo-400 uppercase text-5xl font-extrabold mb-16 ml-[8rem] font-mono ' data-aos = 'fade-down'>
                     My Project's
                 </h1>
 
@@ -79,6 +79,8 @@ const Project = () => {
                     onClick = {(e) => handleProjectGithub(e, 'https://github.com/VonIsaac/landingpage-shoeapp-withfunctionality-react')}
                     GitHub = {GitHub} 
                 />
+
+                <Portfolio GitHub={GitHub} onClick={(e) => handleProjectGithub(e, 'https://github.com/VonIsaac/portfolio' )} />
         </>      
 
     )

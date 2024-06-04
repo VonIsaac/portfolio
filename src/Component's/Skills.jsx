@@ -1,6 +1,6 @@
 import { mySkills } from "../skilssData/mySkills"
 import Technologies from "./Technologies"
-import code1 from '../assets/code-1.svg'
+import code1 from '../assets/Programming-amico.svg'
 import Aos from 'aos';
 import { useEffect } from "react";
 import 'aos/dist/aos.css'
@@ -27,7 +27,7 @@ const Skills = () =>{
 
             <div className=' flex justify-center items-center gap-[230px] mb-5'>
 
-              <img src={code1} alt='code-1' className=' w-[500px]' data-aos = 'fade-up' />    
+              <img src={code1} alt='code-1' className=' w-[450px]' data-aos = 'fade-up' />    
 
                   <div className=' grid grid-rows-3 grid-flow-col gap-6'  >
                   {mySkills.map((skill, index) => (
