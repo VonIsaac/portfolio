@@ -52,7 +52,7 @@ import faceBook from '../assets/icons8-facebook-50.png'
                 />
             </h1>
             
-            <h1 className=' ml-2 text-neutral-500 text-3xl font-semibold mb-2 '  >
+            <h1 className=' ml-2 text-neutral-500 text-3xl font-semibold mb-2 leading-snug'  >
               I am passionate about <span className=' text-green-500  '>creating</span> remarkable expirence on the <span className=' text-blue-400'>web.</span>
             </h1>
             <button className=" mb-3 select-none rounded ml-2 bg-blue-500 py-1 px-2 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -68,14 +68,7 @@ import faceBook from '../assets/icons8-facebook-50.png'
             </div>
         </div>
       </div>
-
-
-
-
-
-      
-  
-                   
+         
        </> 
     )
  }

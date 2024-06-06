@@ -8,6 +8,8 @@ import React from "react";
 import Project from './Component\'s/Projects';
 import Loading from './Component\'s/Loading';
 import AboutMe from './Component\'s/About';
+import ContactMe from './Component\'s/Contact';
+import Footer from './Component\'s/Footer';
 function App() {
 
   const [isLoading, setIsloading] = useState(false)
@@ -35,10 +37,12 @@ function App() {
             <MyName MyResume="My Resume" />
           </nav>
           <main className="scroll-smooth relative">
-            <Skills />
-            <Project />
             <AboutMe />
+            <Project />
+            <Skills />
+            <ContactMe />
           </main>
+          <Footer />
         </>
       )}
 
