@@ -25,9 +25,14 @@ import faceBook from '../assets/icons8-facebook-50.png'
         dispatch(functionsActions.downloadResume())
     }
 
-    const handleUrl = (e, url) => {
+    /*const handleUrl = (e, url) => {
       e.preventDefault();
       window.open(url, '_blank', 'noopener,noreferrer')
+    }*/
+
+    const handleOpenUrl = (e, url) => {
+      e.preventDefault();
+      dispatch(functionsActions.openUrlNewtab(url))
     }
 
     return(
@@ -62,9 +67,9 @@ import faceBook from '../assets/icons8-facebook-50.png'
               {MyResume}
             </button>
             <div className=" flex gap-3 ml-2" >
-                <img src={gitHub} alt="github" className=" w-[20px] cursor-pointer" onClick={(e) => handleUrl(e, 'https://github.com/VonIsaac?tab=repositories')} />
-                <img src={faceBook} alt="facebook" className=" w-[20px] cursor-pointer"  onClick={(e) => handleUrl(e, 'https://www.facebook.com/von.von1323/')} />
-               <img src={linkEnd} alt="linkend" className=" w-[20px] cursor-pointer" onClick={(e) => handleUrl(e, 'https://www.linkedin.com/in/vonisaac23/')} />
+                <img src={gitHub} alt="github" className=" w-[20px] cursor-pointer" onClick={(e) => handleOpenUrl(e, 'https://github.com/VonIsaac?tab=repositories')} />
+                <img src={faceBook} alt="facebook" className=" w-[20px] cursor-pointer"  onClick={(e) => handleOpenUrl(e, 'https://www.facebook.com/von.von1323/')} />
+               <img src={linkEnd} alt="linkend" className=" w-[20px] cursor-pointer" onClick={(e) => handleOpenUrl(e, 'https://www.linkedin.com/in/vonisaac23/')} />
             </div>
         </div>
       </div>

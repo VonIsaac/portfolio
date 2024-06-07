@@ -5,6 +5,7 @@ const allfunctions = createSlice({
     name: 'functions',
     initialState: {
         downloadResume: myResume,
+
     },
 
     reducers:{
@@ -13,6 +14,9 @@ const allfunctions = createSlice({
             a.href = state.downloadResume;
             a.setAttribute('download', 'Von_Isaac_Baban.pdf')
             a.click()
+        },
+        openUrlNewtab(state, action){
+            window.open(action.payload, '_blank', 'noopener,noreferrer')
         }
     }
 })

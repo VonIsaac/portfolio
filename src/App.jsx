@@ -18,7 +18,7 @@ function App() {
     setIsloading(true)
     setTimeout(()=> {
       setIsloading(false)
-    }, 3000)
+    }, 3500)
   }, []);
 
   useEffect(() => {
@@ -32,11 +32,10 @@ function App() {
         <Loading />
       ) : (
         <>
-          <nav>
+         
+          <main className="scroll-smooth relative">
             <Header follow="Follow" />
             <MyName MyResume="My Resume" />
-          </nav>
-          <main className="scroll-smooth relative">
             <AboutMe />
             <Project />
             <Skills />

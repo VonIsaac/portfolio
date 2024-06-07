@@ -3,6 +3,8 @@ import { createPortal } from "react-dom"
 import linkend from '../assets/linekdn.png';
 import fb from '../assets/fb.png';
 import insta from '../assets/instagram.png'
+import { useDispatch } from "react-redux";
+import { functionsActions } from "../store/functions-slice";
 const Modal = forwardRef(({buttons}, ref) => {
     const modal = useRef()
     useImperativeHandle(ref, () => {
@@ -13,11 +15,19 @@ const Modal = forwardRef(({buttons}, ref) => {
         }
     })
 
-    const url = (e, url ) => {
+
+    const dispatch = useDispatch();
+    const url = (e, url) => {
+        e.preventDefault();
+        dispatch(functionsActions.openUrlNewtab(url))
+      }
+    /*const url = (e, url ) => {
         e.preventDefault();
 
         window.open(url, '_blank', 'noopener,noreferrer')
-    }
+    }*/
+
+
 
     return createPortal(
         <dialog ref={modal} className=" backdrop:bg-stone-950/80 p-4 pt-5 rounded-lg shadow-md w-[26%] bg-neutral-900">
