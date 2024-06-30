@@ -27,6 +27,7 @@ const Modal = forwardRef(({buttons}, ref) => {
         window.open(url, '_blank', 'noopener,noreferrer')
     }*/
 
+    
 
 
     return createPortal(

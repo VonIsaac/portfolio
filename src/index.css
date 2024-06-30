@@ -58,3 +58,114 @@ body{
     color: linear-gradient(56deg, rgba(36,23,115,1) 13%, rgba(50,82,171,1) 47%, rgba(35,43,166,1) 74%);
     
 }
+
+
+@media (max-width: 600px) {
+   
+
+    #header-name{
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+
+    #header-img{
+        width: 3rem;
+    }
+
+    #header-btn{
+        font-size: 18px;
+        line-height: 1.25rem;
+    }
+
+    #myname-positions{
+        position: relative;
+        right: 1rem;
+    }
+
+    #myName-hither{
+        font-size: 12px;
+    }
+
+    #myName-name{
+        font-size: 1.50rem;
+        line-height: 20px;
+    }
+
+    #myName-introduction{
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+    #myName-btn{
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 8px;
+        line-height: 8px;
+        margin-bottom: 8px;
+    }
+
+    #myName-icons{
+        width: 15px;
+        height: 15px;
+    }
+    #myName-icons2{
+        width: 15px;
+        height: 15px;
+    }
+
+    #myName-icons3{
+        width: 15px;
+        height: 15px;
+    }
+    #aboutMe-possition{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #aboutMe-img{
+        width: 350px;
+        margin-bottom: 25px;
+    }
+
+    #colorss{
+      
+        width: 85%;
+    }
+
+    #aboutMe{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #aboutMe-paragraph{
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    #myProject-h1{
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    #myProject-1{
+        width: 48rem;
+        height: 23rem;
+        margin-left: 0rem;
+    }
+    #myProject1-title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #myProject1-description{
+        font-size: 14px;
+    }
+    #myProject1-reactjs{
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 14px;
+    }
+
+    
+}

@@ -27,10 +27,13 @@ export default {
       fontFamily: {
         'mono': ['Roboto Mono', 'monospace'],
       },
-
+      
     },
   },
   plugins: [addVariablesForColors],
+
+
+  
 }
 function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));
