@@ -1,8 +1,8 @@
 import shoes from '../assets/shoesapps.png';
 import GitHub from '../assets/ICONS/GitHub.png'
 import TaskApp from './All-Projects/Task-app';
-import InterActive from './All-Projects/Inter-Active';
-import AirJordan from './All-Projects/AirJordan';
+import InformationStudent from './All-Projects/InfotmationStudent';
+import ShareGadgets from './All-Projects/ShareGadgets';
 import Portfolio from './All-Projects/Portfolio';
 const Project = () => {
 
@@ -15,7 +15,7 @@ const Project = () => {
         <>       
             <div>
                 <h1 className=' text-indigo-400 uppercase text-5xl font-extrabold mb-16 ml-[8rem] font-mono ' data-aos = 'fade-down' id='myProject-h1'>
-                    My Project's
+                    My Project&apos;s
                 </h1>
 
                 <div className='  border w-[55rem] h-[25rem] p-1 ml-[7rem] mb-[7rem] bg-gray-800 border-none rounded-2xl px-4 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]' id='myProject-1' data-aos = 'fade-right' data-aos-offset="500" data-aos-duration="500">
@@ -68,15 +68,15 @@ const Project = () => {
                 />
                 {/*------- */}
 
-                <InterActive 
-                    onClick={(e) => handleProjectGithub(e, 'https://github.com/VonIsaac/interactive-comments-section-react')} 
+                <InformationStudent
+                    onClick={(e) => handleProjectGithub(e, 'https://github.com/VonIsaac/INFORMATION_STUDENT-inprog-project-')} 
                     GitHub={GitHub}
                 />
 
                 {/*------- */}
 
-                <AirJordan 
-                    onClick = {(e) => handleProjectGithub(e, 'https://github.com/VonIsaac/landingpage-shoeapp-withfunctionality-react')}
+                <ShareGadgets 
+                    onClick = {(e) => handleProjectGithub(e, 'https://github.com/VonIsaac/Share-Gadgets-nextjs')}
                     GitHub = {GitHub} 
                 />
 

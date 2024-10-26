@@ -21,7 +21,7 @@ export default function Header({follow}) {
          
             <ul className=' flex items-center justify-between pr-3 bg-transparent bg-slate-900 shadow-[0_3px_10px_rgb(0,0,0,0.2)]  w-3/4 rounded-xl '>
                 <li><img src={vLogo} alt="icon-svg" className=' w-[4rem] ' id='header-img'/></li>
-                <li><h1 className=' text-neutral-500 font-bold font-mono  text-2xl' id='header-name'>VON ISAAC</h1></li>
+                <li><h1 className=' text-neutral-500 font-bold font-mono  text-2xl hover:text-cyan-400 transition duration-500 ease-in-out' id='header-name'>VON ISAAC</h1></li>
                 <li>
                   <button
                       id='header-btn'

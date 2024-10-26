@@ -10,7 +10,7 @@ const Footer = () => {
         dispatch(functionsActions.openUrlNewtab(url))
       }
     return(
-       <footer className=' bg-slate-950 p-10'>
+       <footer  className=' bg-slate-950 p-10'>
             <div className=' flex flex-col justify-center items-center'>
                 <h1 className=' text-slate-400 text-2xl font-extrabold leading-snug my-4'>VON ISAAC</h1>
                 <figure className='flex justify-evenly gap-4 items-center mb-3'>
