@@ -4,7 +4,6 @@ import MyName from './Component\'s/MyName';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect, useState} from 'react';
-import React from "react";
 import Project from './Component\'s/Projects';
 import Loading from './Component\'s/Loading';
 import AboutMe from './Component\'s/About';

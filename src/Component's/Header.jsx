@@ -1,4 +1,3 @@
-import heart from '../assets/icons8-heart-50.png';
 import vLogo from '../assets/V-logoss.png'
 import { useRef } from 'react';
 import Modal from './Modal';
@@ -22,12 +21,12 @@ export default function Header({follow}) {
          
             <ul className=' flex items-center justify-between pr-3 bg-transparent bg-slate-900 shadow-[0_3px_10px_rgb(0,0,0,0.2)]  w-3/4 rounded-xl '>
                 <li><img src={vLogo} alt="icon-svg" className=' w-[4rem] ' id='header-img'/></li>
-                <li><h1 className=' text-gray-500 font-bold font-mono  text-2xl' id='header-name'>VON ISAAC</h1></li>
+                <li><h1 className=' text-neutral-500 font-bold font-mono  text-2xl' id='header-name'>VON ISAAC</h1></li>
                 <li>
                   <button
                       id='header-btn'
                       onClick={ handleClick} 
-                      className=' text-neutral-500 font-extrabold hover:text-blue-600 transition duration-700 ease-in-out text-xl font-mono '>
+                      className=' text-neutral-500 font-extrabold hover:text-cyan-400 transition duration-500 ease-in-out text-xl font-mono '>
                       <div className=' flex   gap-1'>
                           <span>{follow}</span>
                           {/*<img src={heart} alt="heart"  className=' w-[25px]'/> */}

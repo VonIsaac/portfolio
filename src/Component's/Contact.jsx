@@ -4,7 +4,7 @@ const ContactMe = () => {
     return(
        <>
             <div className=" flex-col flex justify-center items-center">
-                <p className=" text-slate-600 font-extrabold mb-3 text-2xl leading-snug text-center">
+                <p className=" text-neutral-500 font-extrabold mb-3 text-2xl leading-snug text-center">
                     I'm open to new opportunities and part-time work. 
                     Please get in touch with me if you <br/> have any questions or simply want to say hello, and 
                     I'll try my best to respond!

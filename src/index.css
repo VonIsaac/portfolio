@@ -46,15 +46,14 @@ body{
     }
 }
 
-#colorss{
-    /*background: rgb(241,242,254);
-    background: linear-gradient(90deg, rgba(241,242,254,1) 0%, rgba(203,213,225,1) 14%, rgba(214,211,209,1) 100%);*/
+/*#colorss{
+   
     background: rgb(15,23,42);
     background: linear-gradient(323deg, rgba(15,23,42,1) 14%, rgba(2,6,23,1) 48%, rgba(3,7,18,1) 90%);
-}
+}*/
 
 #name{
-    color: rgb(36,23,115);
+    
     color: linear-gradient(56deg, rgba(36,23,115,1) 13%, rgba(50,82,171,1) 47%, rgba(35,43,166,1) 74%);
     
 }
